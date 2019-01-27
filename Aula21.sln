@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2009
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Camada de Apresentação", "1 - Camada de Apresentação", "{CBF8967B-8672-4F37-919D-4F37CE4811E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Camada de Serviços", "2 - Camada de Serviços", "{245A9690-0C76-461F-B9E9-782E695B9D41}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Camada de Acesso a Dados", "3 - Camada de Acesso a Dados", "{52079A67-21D8-4778-A45E-6B6BBE1CE7A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Projeto.Services", "Projeto.Services\Projeto.Services.csproj", "{FE0BC88E-33C5-4127-8D45-B9222DF2A94F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Projeto.Repository", "Projeto.Repository\Projeto.Repository.csproj", "{B933B7B2-3FCD-453C-BD8D-2EC06F560D7C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FE0BC88E-33C5-4127-8D45-B9222DF2A94F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE0BC88E-33C5-4127-8D45-B9222DF2A94F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE0BC88E-33C5-4127-8D45-B9222DF2A94F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE0BC88E-33C5-4127-8D45-B9222DF2A94F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B933B7B2-3FCD-453C-BD8D-2EC06F560D7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B933B7B2-3FCD-453C-BD8D-2EC06F560D7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B933B7B2-3FCD-453C-BD8D-2EC06F560D7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B933B7B2-3FCD-453C-BD8D-2EC06F560D7C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FE0BC88E-33C5-4127-8D45-B9222DF2A94F} = {245A9690-0C76-461F-B9E9-782E695B9D41}
+		{B933B7B2-3FCD-453C-BD8D-2EC06F560D7C} = {52079A67-21D8-4778-A45E-6B6BBE1CE7A2}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2DA2886D-0F0B-4A11-88FA-72236059E5DC}
+	EndGlobalSection
+EndGlobal
